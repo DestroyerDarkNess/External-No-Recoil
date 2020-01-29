@@ -1,5 +1,5 @@
 # External No Recoil
-No Recoil, External for FPS Games.
+No Recoil, External for FPS Games. | UNIVERSAL |
 
 Activation and Deactivation: F2
 
