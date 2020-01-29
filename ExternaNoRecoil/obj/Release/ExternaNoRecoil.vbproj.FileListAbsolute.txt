@@ -1,0 +1,10 @@
+C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\ExternaNoRecoil\bin\Release\ExternaNoRecoil.exe.config
+C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\ExternaNoRecoil\bin\Release\ExternaNoRecoil.exe
+C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\ExternaNoRecoil\bin\Release\ExternaNoRecoil.pdb
+C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\ExternaNoRecoil\bin\Release\ExternaNoRecoil.xml
+C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\ExternaNoRecoil\obj\Release\ExternaNoRecoil.Form1.resources
+C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\ExternaNoRecoil\obj\Release\ExternaNoRecoil.Resources.resources
+C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\ExternaNoRecoil\obj\Release\ExternaNoRecoil.vbproj.GenerateResource.Cache
+C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\ExternaNoRecoil\obj\Release\ExternaNoRecoil.exe
+C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\ExternaNoRecoil\obj\Release\ExternaNoRecoil.xml
+C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\ExternaNoRecoil\obj\Release\ExternaNoRecoil.pdb
