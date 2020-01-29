@@ -18,9 +18,9 @@ Unique use of the windows API "user32.dll".
     +Fast and Async.
     +Active Window Monitor.
    
-   (With the Program / Without the Program)
- 
-   ![Aquí la descripción de la imagen por si no carga](https://i.ibb.co/4d89mbr/Test.png)
+   ![(With the Program / Without the Program)](https://i.ibb.co/G2cgm2r/DescRIP.png)
+   
+   ![(Test)](https://i.ibb.co/pj6nMxk/a1test.png)
 
 
 
