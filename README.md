@@ -3,7 +3,7 @@ No Recoil, External for FPS Games. | UNIVERSAL |
 
 Activation and Deactivation: F2
 
-A Completely External No Recoil. No hookea, Basically only Imports to Functions are used (GetCursorPos, SetCursorPos, GetAsyncKeyState, mouse_event).
+A Completely External No Recoil. Basically only Imports to Functions are used (GetCursorPos, SetCursorPos, GetAsyncKeyState, mouse_event).
 
 Without manipulating / editing game memory. It works more like a macro.
 It only works with the mause, this makes it INDETECTABLE and universal for any FPS game, so far I have only tried it on:
