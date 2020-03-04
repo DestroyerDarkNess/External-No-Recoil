@@ -15,7 +15,7 @@ Unique use of the windows API "user32.dll".
 
     +Log system.
     +Save Settings.
-    +Fast and Async.
+    +Fast .
     +Active Window Monitor.
    
    ![(With the Program / Without the Program)](https://i.ibb.co/G2cgm2r/DescRIP.png)
