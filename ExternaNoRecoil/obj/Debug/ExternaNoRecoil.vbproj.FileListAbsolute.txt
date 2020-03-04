@@ -8,3 +8,13 @@ C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\Extern
 C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\ExternaNoRecoil\obj\Debug\ExternaNoRecoil.xml
 C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\ExternaNoRecoil\obj\Debug\ExternaNoRecoil.pdb
 C:\Users\S4lsalsoft\Documents\Visual Studio 2012\Projects\ExternaNoRecoil\ExternaNoRecoil\obj\Debug\ExternaNoRecoil.Form1.resources
+C:\Users\S4lsalsoft\Documents\Github\External-No-Recoil\ExternaNoRecoil\bin\Debug\ExternaNoRecoil.exe.config
+C:\Users\S4lsalsoft\Documents\Github\External-No-Recoil\ExternaNoRecoil\obj\Debug\ExternaNoRecoil.exe
+C:\Users\S4lsalsoft\Documents\Github\External-No-Recoil\ExternaNoRecoil\obj\Debug\ExternaNoRecoil.xml
+C:\Users\S4lsalsoft\Documents\Github\External-No-Recoil\ExternaNoRecoil\obj\Debug\ExternaNoRecoil.pdb
+C:\Users\S4lsalsoft\Documents\Github\External-No-Recoil\ExternaNoRecoil\bin\Debug\ExternaNoRecoil.exe
+C:\Users\S4lsalsoft\Documents\Github\External-No-Recoil\ExternaNoRecoil\bin\Debug\ExternaNoRecoil.pdb
+C:\Users\S4lsalsoft\Documents\Github\External-No-Recoil\ExternaNoRecoil\bin\Debug\ExternaNoRecoil.xml
+C:\Users\S4lsalsoft\Documents\Github\External-No-Recoil\ExternaNoRecoil\obj\Debug\ExternaNoRecoil.Form1.resources
+C:\Users\S4lsalsoft\Documents\Github\External-No-Recoil\ExternaNoRecoil\obj\Debug\ExternaNoRecoil.Resources.resources
+C:\Users\S4lsalsoft\Documents\Github\External-No-Recoil\ExternaNoRecoil\obj\Debug\ExternaNoRecoil.vbproj.GenerateResource.Cache

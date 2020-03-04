@@ -53,6 +53,8 @@ Public Class Form1
     Dim ProcessGame As String = String.Empty
     Dim ProcessID As Integer = Nothing
     Dim ProcessGameTitle As String = String.Empty
+    Dim MausePos As New POINTAPI
+    Dim ActivateH As Boolean = False
 
 #End Region
 
@@ -136,6 +138,7 @@ Public Class Form1
 #Region " Load/Close "
     
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
+        If My.Computer.FileSystem.FileExists(LogFile) Then : My.Computer.FileSystem.DeleteFile(LogFile) : End If
 
         Try : AddHandler Application.ThreadException, AddressOf Application_Exception_Handler _
           : Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException, False) _
@@ -209,26 +212,21 @@ Public Class Form1
 
 #Region " Focus App Monitor "
 
-    Dim CotrollerFocusMonitor As Boolean = True
-
     Private Sub FocusMonitor_Tick(sender As Object, e As EventArgs) Handles FocusMonitor.Tick
-        Dim FocusWindowedAPP As String = GetFocusActiveAPP()
-        If CotrollerFocusMonitor = True Then
-            If Not FocusWindowedAPP = ProcessGameTitle Then
-                ActivateH = False
-                CotrollerFocusMonitor = False
-                WriteLog("The game is not in prescience. By deactivating Program, you can activate again in F2. (Inside the game) | " & FocusWindowedAPP & "≠" & ProcessGameTitle, InfoType.Exception)
-            Else
-                CotrollerFocusMonitor = True
-            End If
+        Dim FocusWindowedAPP As String = GetFocusActiveAPP.ToString
+        If Not FocusWindowedAPP = ProcessGameTitle Then
+            ActivateH = False
+            WriteLog("The game is not in prescience. By deactivating Program, you can activate again in F2. (Inside the game) | " & FocusWindowedAPP & "≠" & ProcessGameTitle, InfoType.Exception)
+        Else
+            ActivateH = True
+            WriteLog("Active game, You can activate Pressing F2. (In game) | " & FocusWindowedAPP & "=" & ProcessGameTitle, InfoType.Information)
         End If
     End Sub
 
     Private Declare Function GetForegroundWindow Lib "user32" Alias "GetForegroundWindow" () As IntPtr
     Private Declare Auto Function GetWindowText Lib "user32" (ByVal hWnd As System.IntPtr, ByVal lpString As System.Text.StringBuilder, ByVal cch As Integer) As Integer
-    Private makel As String
 
-    Public Function GetFocusActiveAPP()
+    Public Function GetFocusActiveAPP() As String
         Dim Caption As New System.Text.StringBuilder(256)
         Dim hWnd As IntPtr = GetForegroundWindow()
         GetWindowText(hWnd, Caption, Caption.Capacity)
@@ -236,9 +234,6 @@ Public Class Form1
     End Function
 
 #End Region
-
-    Dim MausePos As New POINTAPI
-    Dim ActivateH As Boolean = False
 
     Private Sub NoRecoilTimer_Tick(sender As Object, e As EventArgs) Handles NoRecoilTimer.Tick
        If GetAsyncKeyState(113) = -32767 Then
