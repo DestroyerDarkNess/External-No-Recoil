@@ -29,22 +29,23 @@ Partial Class Form1
         Me.NoRecoilTimer = New System.Windows.Forms.Timer(Me.components)
         Me.ControlsMonitor = New System.Windows.Forms.Timer(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
-        Me.DiscordLabel5 = New ExternaNoRecoil.DiscordLabel()
-        Me.MauseValueTrackBar = New ExternaNoRecoil.SevenOperXTrackBar()
-        Me.SpeedValueTrackBar = New ExternaNoRecoil.SevenOperXTrackBar()
-        Me.ProcessTextBox = New ExternaNoRecoil.DiscordTextBox()
         Me.FocusMonitor = New System.Windows.Forms.Timer(Me.components)
         Me.DiscordForm1 = New ExternaNoRecoil.DiscordForm()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.SpeedLabel = New ExternaNoRecoil.DiscordLabel()
         Me.ValueLabel = New ExternaNoRecoil.DiscordLabel()
+        Me.DiscordLabel5 = New ExternaNoRecoil.DiscordLabel()
+        Me.MauseValueTrackBar = New ExternaNoRecoil.SevenOperXTrackBar()
         Me.DiscordButton11 = New ExternaNoRecoil.DiscordButton1()
         Me.DiscordLabel6 = New ExternaNoRecoil.DiscordLabel()
+        Me.SpeedValueTrackBar = New ExternaNoRecoil.SevenOperXTrackBar()
         Me.StatusLabel = New ExternaNoRecoil.DiscordLabel()
         Me.DiscordLabel4 = New ExternaNoRecoil.DiscordLabel()
         Me.DiscordLabel3 = New ExternaNoRecoil.DiscordLabel()
         Me.DiscordLabel2 = New ExternaNoRecoil.DiscordLabel()
         Me.DiscordLabel1 = New ExternaNoRecoil.DiscordLabel()
+        Me.ProcessTextBox = New ExternaNoRecoil.DiscordTextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.DiscordForm1.SuspendLayout()
@@ -67,6 +68,47 @@ Partial Class Form1
         Me.ControlsMonitor.Enabled = True
         Me.ControlsMonitor.Interval = 1
         '
+        'FocusMonitor
+        '
+        Me.FocusMonitor.Interval = 1
+        '
+        'DiscordForm1
+        '
+        Me.DiscordForm1.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(63, Byte), Integer))
+        Me.DiscordForm1.Controls.Add(Me.Label1)
+        Me.DiscordForm1.Controls.Add(Me.LinkLabel1)
+        Me.DiscordForm1.Controls.Add(Me.SpeedLabel)
+        Me.DiscordForm1.Controls.Add(Me.ValueLabel)
+        Me.DiscordForm1.Controls.Add(Me.DiscordLabel5)
+        Me.DiscordForm1.Controls.Add(Me.MauseValueTrackBar)
+        Me.DiscordForm1.Controls.Add(Me.DiscordButton11)
+        Me.DiscordForm1.Controls.Add(Me.DiscordLabel6)
+        Me.DiscordForm1.Controls.Add(Me.SpeedValueTrackBar)
+        Me.DiscordForm1.Controls.Add(Me.StatusLabel)
+        Me.DiscordForm1.Controls.Add(Me.DiscordLabel4)
+        Me.DiscordForm1.Controls.Add(Me.DiscordLabel3)
+        Me.DiscordForm1.Controls.Add(Me.DiscordLabel2)
+        Me.DiscordForm1.Controls.Add(Me.DiscordLabel1)
+        Me.DiscordForm1.Controls.Add(Me.ProcessTextBox)
+        Me.DiscordForm1.Controls.Add(Me.Button1)
+        Me.DiscordForm1.Controls.Add(Me.Panel1)
+        Me.DiscordForm1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DiscordForm1.Location = New System.Drawing.Point(0, 0)
+        Me.DiscordForm1.Name = "DiscordForm1"
+        Me.DiscordForm1.Size = New System.Drawing.Size(444, 297)
+        Me.DiscordForm1.TabIndex = 1
+        Me.DiscordForm1.Text = "External No Recoil"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(55, 275)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(71, 13)
+        Me.Label1.TabIndex = 16
+        Me.Label1.Text = "By S4Lsalsoft"
+        '
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
@@ -78,6 +120,32 @@ Partial Class Form1
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "GitHub"
         Me.ToolTip1.SetToolTip(Me.LinkLabel1, "Source Code | How to use | and more...")
+        '
+        'SpeedLabel
+        '
+        Me.SpeedLabel.AutoSize = True
+        Me.SpeedLabel.BackColor = System.Drawing.Color.Transparent
+        Me.SpeedLabel.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!)
+        Me.SpeedLabel.FontColour = System.Drawing.Color.FromArgb(CType(CType(155, Byte), Integer), CType(CType(155, Byte), Integer), CType(CType(160, Byte), Integer))
+        Me.SpeedLabel.ForeColor = System.Drawing.Color.White
+        Me.SpeedLabel.Location = New System.Drawing.Point(405, 159)
+        Me.SpeedLabel.Name = "SpeedLabel"
+        Me.SpeedLabel.Size = New System.Drawing.Size(28, 15)
+        Me.SpeedLabel.TabIndex = 12
+        Me.SpeedLabel.Text = "100"
+        '
+        'ValueLabel
+        '
+        Me.ValueLabel.AutoSize = True
+        Me.ValueLabel.BackColor = System.Drawing.Color.Transparent
+        Me.ValueLabel.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!)
+        Me.ValueLabel.FontColour = System.Drawing.Color.FromArgb(CType(CType(155, Byte), Integer), CType(CType(155, Byte), Integer), CType(CType(160, Byte), Integer))
+        Me.ValueLabel.ForeColor = System.Drawing.Color.White
+        Me.ValueLabel.Location = New System.Drawing.Point(405, 121)
+        Me.ValueLabel.Name = "ValueLabel"
+        Me.ValueLabel.Size = New System.Drawing.Size(14, 15)
+        Me.ValueLabel.TabIndex = 11
+        Me.ValueLabel.Text = "1"
         '
         'DiscordLabel5
         '
@@ -108,88 +176,6 @@ Partial Class Form1
         Me.ToolTip1.SetToolTip(Me.MauseValueTrackBar, "Space interval that will lower the pointer.")
         Me.MauseValueTrackBar.Value = 1
         '
-        'SpeedValueTrackBar
-        '
-        Me.SpeedValueTrackBar.BarColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(63, Byte), Integer))
-        Me.SpeedValueTrackBar.BarColorFromBoxmoving = True
-        Me.SpeedValueTrackBar.BarProgressColor = System.Drawing.Color.FromArgb(CType(CType(107, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(216, Byte), Integer))
-        Me.SpeedValueTrackBar.BoxColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(63, Byte), Integer))
-        Me.SpeedValueTrackBar.Location = New System.Drawing.Point(58, 157)
-        Me.SpeedValueTrackBar.Maximum = 100
-        Me.SpeedValueTrackBar.Minimum = 1
-        Me.SpeedValueTrackBar.Name = "SpeedValueTrackBar"
-        Me.SpeedValueTrackBar.Size = New System.Drawing.Size(336, 20)
-        Me.SpeedValueTrackBar.TabIndex = 7
-        Me.ToolTip1.SetToolTip(Me.SpeedValueTrackBar, "Speed ​​With which the Pointer falls in the Recoil.")
-        Me.SpeedValueTrackBar.Value = 100
-        '
-        'ProcessTextBox
-        '
-        Me.ProcessTextBox.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.ProcessTextBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(222, Byte), Integer))
-        Me.ProcessTextBox.Location = New System.Drawing.Point(71, 71)
-        Me.ProcessTextBox.Name = "ProcessTextBox"
-        Me.ProcessTextBox.Size = New System.Drawing.Size(123, 21)
-        Me.ProcessTextBox.TabIndex = 1
-        Me.ToolTip1.SetToolTip(Me.ProcessTextBox, "Enter the name of the Game Process.")
-        Me.ProcessTextBox.UseSystemPasswordChar = False
-        '
-        'FocusMonitor
-        '
-        Me.FocusMonitor.Interval = 1
-        '
-        'DiscordForm1
-        '
-        Me.DiscordForm1.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(63, Byte), Integer))
-        Me.DiscordForm1.Controls.Add(Me.LinkLabel1)
-        Me.DiscordForm1.Controls.Add(Me.SpeedLabel)
-        Me.DiscordForm1.Controls.Add(Me.ValueLabel)
-        Me.DiscordForm1.Controls.Add(Me.DiscordLabel5)
-        Me.DiscordForm1.Controls.Add(Me.MauseValueTrackBar)
-        Me.DiscordForm1.Controls.Add(Me.DiscordButton11)
-        Me.DiscordForm1.Controls.Add(Me.DiscordLabel6)
-        Me.DiscordForm1.Controls.Add(Me.SpeedValueTrackBar)
-        Me.DiscordForm1.Controls.Add(Me.StatusLabel)
-        Me.DiscordForm1.Controls.Add(Me.DiscordLabel4)
-        Me.DiscordForm1.Controls.Add(Me.DiscordLabel3)
-        Me.DiscordForm1.Controls.Add(Me.DiscordLabel2)
-        Me.DiscordForm1.Controls.Add(Me.DiscordLabel1)
-        Me.DiscordForm1.Controls.Add(Me.ProcessTextBox)
-        Me.DiscordForm1.Controls.Add(Me.Button1)
-        Me.DiscordForm1.Controls.Add(Me.Panel1)
-        Me.DiscordForm1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DiscordForm1.Location = New System.Drawing.Point(0, 0)
-        Me.DiscordForm1.Name = "DiscordForm1"
-        Me.DiscordForm1.Size = New System.Drawing.Size(444, 297)
-        Me.DiscordForm1.TabIndex = 1
-        Me.DiscordForm1.Text = "External No Recoil"
-        '
-        'SpeedLabel
-        '
-        Me.SpeedLabel.AutoSize = True
-        Me.SpeedLabel.BackColor = System.Drawing.Color.Transparent
-        Me.SpeedLabel.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!)
-        Me.SpeedLabel.FontColour = System.Drawing.Color.FromArgb(CType(CType(155, Byte), Integer), CType(CType(155, Byte), Integer), CType(CType(160, Byte), Integer))
-        Me.SpeedLabel.ForeColor = System.Drawing.Color.White
-        Me.SpeedLabel.Location = New System.Drawing.Point(405, 159)
-        Me.SpeedLabel.Name = "SpeedLabel"
-        Me.SpeedLabel.Size = New System.Drawing.Size(28, 15)
-        Me.SpeedLabel.TabIndex = 12
-        Me.SpeedLabel.Text = "100"
-        '
-        'ValueLabel
-        '
-        Me.ValueLabel.AutoSize = True
-        Me.ValueLabel.BackColor = System.Drawing.Color.Transparent
-        Me.ValueLabel.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!)
-        Me.ValueLabel.FontColour = System.Drawing.Color.FromArgb(CType(CType(155, Byte), Integer), CType(CType(155, Byte), Integer), CType(CType(160, Byte), Integer))
-        Me.ValueLabel.ForeColor = System.Drawing.Color.White
-        Me.ValueLabel.Location = New System.Drawing.Point(405, 121)
-        Me.ValueLabel.Name = "ValueLabel"
-        Me.ValueLabel.Size = New System.Drawing.Size(14, 15)
-        Me.ValueLabel.TabIndex = 11
-        Me.ValueLabel.Text = "1"
-        '
         'DiscordButton11
         '
         Me.DiscordButton11.Location = New System.Drawing.Point(413, 1)
@@ -205,11 +191,26 @@ Partial Class Form1
         Me.DiscordLabel6.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!)
         Me.DiscordLabel6.FontColour = System.Drawing.Color.FromArgb(CType(CType(155, Byte), Integer), CType(CType(155, Byte), Integer), CType(CType(160, Byte), Integer))
         Me.DiscordLabel6.ForeColor = System.Drawing.Color.White
-        Me.DiscordLabel6.Location = New System.Drawing.Point(12, 200)
+        Me.DiscordLabel6.Location = New System.Drawing.Point(26, 199)
         Me.DiscordLabel6.Name = "DiscordLabel6"
         Me.DiscordLabel6.Size = New System.Drawing.Size(379, 60)
         Me.DiscordLabel6.TabIndex = 8
         Me.DiscordLabel6.Text = resources.GetString("DiscordLabel6.Text")
+        '
+        'SpeedValueTrackBar
+        '
+        Me.SpeedValueTrackBar.BarColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(63, Byte), Integer))
+        Me.SpeedValueTrackBar.BarColorFromBoxmoving = True
+        Me.SpeedValueTrackBar.BarProgressColor = System.Drawing.Color.FromArgb(CType(CType(107, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(216, Byte), Integer))
+        Me.SpeedValueTrackBar.BoxColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(63, Byte), Integer))
+        Me.SpeedValueTrackBar.Location = New System.Drawing.Point(58, 157)
+        Me.SpeedValueTrackBar.Maximum = 100
+        Me.SpeedValueTrackBar.Minimum = 1
+        Me.SpeedValueTrackBar.Name = "SpeedValueTrackBar"
+        Me.SpeedValueTrackBar.Size = New System.Drawing.Size(336, 20)
+        Me.SpeedValueTrackBar.TabIndex = 7
+        Me.ToolTip1.SetToolTip(Me.SpeedValueTrackBar, "Speed ​​With which the Pointer falls in the Recoil.")
+        Me.SpeedValueTrackBar.Value = 100
         '
         'StatusLabel
         '
@@ -276,6 +277,17 @@ Partial Class Form1
         Me.DiscordLabel1.TabIndex = 2
         Me.DiscordLabel1.Text = "Process : "
         '
+        'ProcessTextBox
+        '
+        Me.ProcessTextBox.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.ProcessTextBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(220, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(222, Byte), Integer))
+        Me.ProcessTextBox.Location = New System.Drawing.Point(71, 71)
+        Me.ProcessTextBox.Name = "ProcessTextBox"
+        Me.ProcessTextBox.Size = New System.Drawing.Size(123, 21)
+        Me.ProcessTextBox.TabIndex = 1
+        Me.ToolTip1.SetToolTip(Me.ProcessTextBox, "Enter the name of the Game Process.")
+        Me.ProcessTextBox.UseSystemPasswordChar = False
+        '
         'Button1
         '
         Me.Button1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -307,9 +319,10 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(444, 297)
         Me.Controls.Add(Me.DiscordForm1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.TopMost = true
+        Me.Text = "Destroyer"
         Me.TransparencyKey = System.Drawing.Color.Fuchsia
         Me.DiscordForm1.ResumeLayout(false)
         Me.DiscordForm1.PerformLayout
@@ -339,5 +352,6 @@ End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents FocusMonitor As System.Windows.Forms.Timer
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 
 End Class

@@ -9,8 +9,8 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("ExternaNoRecoil")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyDescription("Macro - No Recoil")> 
+<Assembly: AssemblyCompany("S4lsalsoft")> 
 <Assembly: AssemblyProduct("ExternaNoRecoil")> 
 <Assembly: AssemblyCopyright("Copyright ©  2020")> 
 <Assembly: AssemblyTrademark("")> 
